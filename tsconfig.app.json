@@ -9,7 +9,6 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "Assets": ["./src/assets/*"],
       "Constants/*": ["./src/constants/*"],
       "Views/*": ["./src/views/*"],
       "Shared/*": ["./src/shared/*"],
