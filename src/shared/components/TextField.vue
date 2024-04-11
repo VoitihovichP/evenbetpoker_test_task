@@ -35,4 +35,29 @@ const updateValue = (event) => {
   </div>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import 'Styles/vars';
+
+.ant-input,
+.ant-input-password {
+  background: $secondary-blue;
+  border: none;
+  &:focus {
+    box-shadow: $input-shadow;
+  }
+  &::placeholder {
+    color: $white;
+    opacity: 0.5;
+  }
+}
+
+.ant-input-affix-wrapper-focused {
+  box-shadow: $input-shadow;
+}
+
+.ant-input-password-icon {
+  svg {
+    fill: $white;
+  }
+}
+</style>
