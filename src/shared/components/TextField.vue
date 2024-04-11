@@ -42,6 +42,7 @@ const updateValue = (event) => {
 .ant-input-password {
   background: $secondary-blue;
   border: none;
+  color: $white;
   &:focus {
     box-shadow: $input-shadow;
   }
