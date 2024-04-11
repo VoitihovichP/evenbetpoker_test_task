@@ -10,3 +10,12 @@ body {
   min-height: 100dvh;
   background: $dark-blue;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: calc(100vw - 60px);
+}
+
+.f-width {
+  width: 100%;
+}

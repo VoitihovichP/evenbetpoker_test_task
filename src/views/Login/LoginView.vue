@@ -4,8 +4,10 @@ import LoginForm from '@/views/Login/ui/LoginForm.vue'
 
 <template>
   <main>
-    <LoginForm />
+    <section>
+      <div class="container">
+        <LoginForm />
+      </div>
+    </section>
   </main>
 </template>
-
-<style lang="scss"></style>

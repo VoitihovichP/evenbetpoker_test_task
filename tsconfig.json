@@ -5,6 +5,7 @@
       "@/*": ["./src/*"],
       "Constants/*": ["./src/constants/*"],
       "Views/*": ["./src/views/*"],
+      "Shared/*": ["./src/shared/*"],
       "Styles/*": ["./src/styles/*"],
     }
   },
