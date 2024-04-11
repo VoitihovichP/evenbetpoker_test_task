@@ -10,7 +10,11 @@ export default defineConfig({
   plugins: [vue(), vueJsx(), VueDevTools()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      'Components': fileURLToPath(new URL('./components', import.meta.url)),
+      'Constants': fileURLToPath(new URL('./constants', import.meta.url)),
+      'Views': fileURLToPath(new URL('./views', import.meta.url)),
+      'Styles': fileURLToPath(new URL('./styles', import.meta.url)),
     }
   }
 });

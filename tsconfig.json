@@ -1,4 +1,13 @@
 {
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["*"],
+      "Components/*": ["src/components/*"],
+      "Constants/*": ["./src/constants/*"],
+      "Views/*": ["./src/views/*"],
+      "Styles/*": ["./src/styles/*"],
+    }
+  },
   "files": [],
   "references": [
     {
