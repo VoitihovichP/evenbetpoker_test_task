@@ -9,6 +9,7 @@ const passwordValue = ref('')
 
 <template>
   <form class="login-form">
+    <h1 class="login-form__title">Welcome back!</h1>
     <div class="login-form__wrapper">
       <TextField v-model="loginValue" placeholder="Login" />
       <TextField
@@ -31,10 +32,17 @@ const passwordValue = ref('')
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 24px;
+  padding: 16px 24px 24px 24px;
   width: 300px;
   border-radius: $br-large;
   background-color: $grey;
+  &__title {
+    margin: 0 auto 20px auto;
+    width: fit-content;
+    color: $white;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
   &__wrapper {
     display: flex;
     flex-direction: column;
