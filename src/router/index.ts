@@ -4,7 +4,6 @@ import { frontendPaths } from '@/constants/frontendPaths'
 import HomeView from '@/views/Home/HomeView.vue'
 import LoginView from '@/views/Login/LoginView.vue'
 import NotFound from 'Views/NotFound/NotFound.vue'
-import InnerLayout from '@/entities/InnerLayout/ui/InnerLayout.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,24 +11,19 @@ const router = createRouter({
     {
       path: frontendPaths.HOME,
       name: 'home',
-      meta: { requiresAuth: true },
-      component: InnerLayout,
-      children: [
-        {
-          path: '',
-          component: HomeView
-        }
-      ]
+      meta: { layout: 'inner', requiresAuth: true },
+      component: HomeView
     },
     {
       path: frontendPaths.LOGIN,
       name: 'login',
+      meta: { layout: 'empty' },
       component: LoginView
     },
     {
       path: '/:catchAll(.*)',
       name: 'NotFound',
-      meta: { requiresAuth: true },
+      meta: { layout: 'empty', requiresAuth: true },
       component: NotFound
     }
   ]

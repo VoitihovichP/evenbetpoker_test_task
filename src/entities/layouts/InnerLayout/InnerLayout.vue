@@ -4,7 +4,5 @@ import SidebarWidget from '@/widgets/SidebarWidget/ui/SidebarWidget.vue'
 
 <template>
   <SidebarWidget />
-  <div>
-    <slot></slot>
-  </div>
+  <RouterView />
 </template>

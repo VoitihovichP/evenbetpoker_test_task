@@ -10,6 +10,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "Constants/*": ["./src/constants/*"],
+      "Entities": ["./src/entities/*"],
       "Views/*": ["./src/views/*"],
       "Shared/*": ["./src/shared/*"],
       "Styles/*": ["./src/styles/*"],
