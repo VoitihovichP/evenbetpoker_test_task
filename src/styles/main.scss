@@ -20,6 +20,9 @@ body {
 .container {
   margin: 0 auto;
   max-width: calc(100vw - 60px);
+  &_inner {
+    max-width: calc(100vw - $sidebar-width - 60px);
+  }
 }
 
 .f-width {

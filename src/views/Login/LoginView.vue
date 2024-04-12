@@ -3,11 +3,9 @@ import LoginForm from '@/views/Login/ui/LoginForm.vue'
 </script>
 
 <template>
-  <main>
-    <section>
-      <div class="container">
-        <LoginForm />
-      </div>
-    </section>
-  </main>
+  <section>
+    <div class="container">
+      <LoginForm />
+    </div>
+  </section>
 </template>

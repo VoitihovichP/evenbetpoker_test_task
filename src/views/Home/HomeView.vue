@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main>asdasdasdasdasd</main>
+  <section>
+    <div class="container container_inner">asdasd</div>
+  </section>
 </template>
