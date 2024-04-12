@@ -14,7 +14,7 @@ import UserBadge from '@/entities/UserBadge/ui/UserBadge.vue'
 .sidebar {
   position: fixed;
   left: 0;
-  padding: 12px 18px;
+  padding: $p-card-default;
   height: 100dvh;
   width: $sidebar-width;
   background: $grey;
