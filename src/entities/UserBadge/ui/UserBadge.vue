@@ -13,7 +13,7 @@ import { UserOutlined } from '@ant-design/icons-vue'
 @import 'Styles/vars';
 
 .user-badge {
-  padding: 20px;
+  padding: $p-default;
   display: flex;
   flex-direction: column;
   align-items: center;
